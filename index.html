@@ -1,102 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Perpetua;
+  margin: 0;
+}
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+/* Header/Logo Title */
+.header {
+  padding: 5px;
+  height: 100px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+}
 
-    <title>Lisa Anne Hendricks</title>
+/* Page Content */
 
-    <!-- Bootstrap Core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="simple-sidebar.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+.container {
+	width: 1024px;
+	min-height: 200px;
+	margin: 0 auto; /* top and bottom, right and left */
+	border: 1px hidden #000;
+	/* border: none; */
+	text-align: center;
+	padding: 1em 1em 1em 1em; /* top, right, bottom, left */
+	color: #111e42;
+	background: #f5f5f5;
+}
+</style>
 </head>
+<body style="background-color:#111e42;">
 
-<body>
 
-    <div id="wrapper">
+</br>
+</br>
+</br>
+<div class="container">
+  <h1>Lisa Anne Hendricks</h1>
+        <table width="90%" align="center" border="0" cellpadding="10">
+        <tr>
+          <td width="50%" valign="top">
+ 
+          <figure>
+          <img src="img1.jpg" width=80% >
+	  <figcaption>Celebrating after my thesis talk!</figcaption>
+          </figure>
 
-        <div class="header">
-  <h1>Header</h1>
-  <p>My supercool header</p>
+          </td>
+          <td width="50%">
+            <p>I am a research scientist on the Language Team at DeepMind.  
+	    I received my PhD from Berkeley in May 2019, and a BSEE (Bachelor of Science in Electrical Engineering) from Rice University in 2013.
+	    My research focuses on the intersection of language and vision.
+	    I am particularly interested in analyzing why models work (see <a href="https://arxiv.org/pdf/2102.00529.pdf">here</a>), explainability (see <a href="https://arxiv.org/pdf/1807.09685.pdf">here</a> and <a href="https://arxiv.org/pdf/1803.09797.pdf">here</a>), and mitigating/measuring bias in AI models (see <a href="https://arxiv.org/pdf/1803.09797.pdf">here</a>).  I have a very <a href="max.jpg">handsome cat</a> named Softmax Power (Max for short).
+	    </p>
+            <p><a href="hendricks_cv.pdf">CV</a> / <a href="https://github.com/LisaAnne">GitHub</a> / <a href="https://scholar.google.com/citations?user=pvyI8GkAAAAJ&hl=en&oi=ao">Google Scholar</a></p>
+          </td>
+        </tr>
+      </table>
+      <!--
+      <div align=left>
+      <h1 align=left>Selected Publications</h1>
+      <ul>
+        <li align=left>"Probing Multimodal Transformers for Verb Understanding." in <em>Findings of ACL 2021</em> with Aida Nematzadeh</li>
+        <li align=left>"Decoupling the Role of Data, Attention, and Losses in Multimodal Transformers." in <em>TACL 2021</em> with John Mellor, Rosalia Schneider, Jean-Baptiste Alayrac and Aida Nematzadeh</li>
+        <li align=left>Gender bias</li>
+        <li align=left>explanation</li>
+        <li align=left>"Localizing Moments in Video with Natural Language." in <em>ICCV 2017</em> with Oliver Wang, Eli Shechtman, Josef Sivic, Trevor Darrell, and Bryan Russell.  Work done during my 2016 Adobe internship, and followed by "Localizing Moments in Video with Natural Language." at EMNLP 2018.</li>
+        <li align=left>novel object captioning</li>
+      </ul>
+      </div>
+      --!>
 </div>
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Lisa Anne Hendricks</h1>
-			<!--
-                        <div class="col-xs-12" style="height:20px;"></div>
-			</class>
-			<div class="col-md-4">
-			<div class="imgAbt">
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<img  width="216" height="173" src="web_pic.jpg">
-                        </div>
-			</div>
-			-->
-                        <p> 
-			<div class="col-lg-12">
-			I am currently a research scientist at DeepMind. 
-			I completed my PhD at UC Berkeley in May 2019. 
-			My PhD work focussed on building systems which can express information about visual content using natural language and retrieve visual information given natural language. 
-			<br/>
-			<br/>
-			Before attending UC Berkeley, I was an undergraduate at Rice University.  I worked with Richard Baraniuk on a lensless imaging system and with Junichiro Kono on terahertz spectroscopy.   
-			<br/>
-			<br/>
-		        I spent two summers at Google where I worked on camera hardware with the Chromebook team (summer 2012) and the Google Glass team (summer 2013). In the summers of 2016 and 2017 I interned with the Creative Technology Labs (CTL) at Adobe.  At Adobe I collaborated with Bryan Russell, Josef Sivic, Eli Schecthman, and Oliver Wang. In 2018, I interned at Facebook AI Research (FAIR) with Devi Parikh and Dhruv Batra.	
-                        <br/>
-                        <br/>
-                        <b>Contact</b> <br/>
-        		email: lisa underscore anne at berkeley dot edu <br/>
-        		github: <a href="https://github.com/LisaAnne">https://github.com/LisaAnne</a><br>
-			</p>
-			</div>
-                    
-                        <!-- <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+</br>
 
 </body>
-
 </html>
